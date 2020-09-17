@@ -1,13 +1,12 @@
-FROM golang:1.8.1-alpine
+FROM golang:1.14-alpine
 
-RUN apk update && apk upgrade && apk add --no-cache bash git
+WORKDIR /go/src/app
+COPY . .
 
-RUN go get github.com/sebastianMurdoch/go-books
+RUN go get -d -v ./...
+RUN go install -v ./...
 
-ENV SOURCES /go/src/github.com/sebastianMurdoch/go-books/
-RUN cd ${SOURCES} && CGO_ENABLED=0 go build
+CMD ["app"]
 
-WORKDIR ${SOURCES}
-CMD ${SOURCES}go-books
 EXPOSE 8080
 

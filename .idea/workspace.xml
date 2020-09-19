@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13bec17f-d3c3-4ce9-b116-31eebd026661" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/app/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +32,11 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kafka-example" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunManager">
@@ -68,6 +67,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="197" key="#Go_Modules/0.0.1366.728@0.0.1366.728" timestamp="1600346806052" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1600356418009">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600356418009" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1600350626016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -88,5 +91,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600346966449" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600356414250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600356414250" />
   </component>
 </project>
